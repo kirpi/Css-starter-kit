@@ -1,0 +1,16 @@
+.form-control,
+.form-select{
+  font-size: var(--form-control-font-size, #{$font-size-desktop});
+  padding-top: var(--form-control-padding-y, $space-2);
+  padding-bottom: var(--form-control-padding-y, $space-2);
+  padding-left: var(--form-control-padding-x, $space-3);
+  padding-right: var(--form-control-padding-x, $space-3);
+  border-radius: var(--form-control-radius, $border-radius-1);
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: right #{$space-2} center;
+}
+
+.form-label{
+  display: inline-flex;
+}

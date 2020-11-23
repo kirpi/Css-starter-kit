@@ -1,0 +1,49 @@
+/*
+  To edit button: ./base/forms/_forms.scss
+  To edit boxshadow: ./base/variable/_misc.scss
+
+  **You can use :root variables to customize the font size, space values.
+  :root{
+  --form-control-font-size: value;
+  --form-control-padding-x: value;
+  --form-control-padding-y: value;
+  --form-control-radius:value;
+  }
+*/
+
+.form-control,
+.form-select{
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border: $border-width-2 solid var(--color-gray-light);
+  transition: $fade-1;
+
+  &:focus{
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: $shadow-sm;
+  }
+  &::placeholder{
+    color: var(--color-gray-darker);
+  }
+}
+
+.form-control--error{
+  border-color:var(--color-danger);
+  &:focus{
+    border-color: var(--color-danger);
+    box-shadow: 0 0 0 2px var(--color-danger-20);
+  }
+}
+
+.form-control--disable,
+.form-control[disabled],
+.form-control[readonly]{
+  cursor: not-allowed;
+  color: var(--color-gray-dark);
+  &:focus{
+    border-color: var(--color-gray-light);
+    box-shadow: initial;
+
+  }
+}

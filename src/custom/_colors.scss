@@ -1,0 +1,39 @@
+/*
+  Color mixin usage: @include color(--color-name, hue, saturation, lightness, aplha);
+
+  **Alpha property is optional.
+*/
+
+:root, [data-theme="default"]{
+  @include color(--color-black, 0, 0%, 17%);
+  @include color(--color-white, 0, 0%, 100%);
+
+
+  @include color(--color-primary-light, 213, 83%, 54%);
+  @include color(--color-primary, 213, 84%, 49%);
+  @include color(--color-primary-dark, 213, 88%, 43%);
+  @include color(--color-primary-darker, 213, 91%, 38%);
+
+  @include color(--color-danger-light, 357, 73%, 59%);
+  @include color(--color-danger-20, 357, 67%, 53%,0.2);
+  @include color(--color-danger, 357, 67%, 53%);
+  @include color(--color-danger-dark, 357, 69%, 47%);
+  @include color(--color-danger-darker, 357, 82%, 40%);
+
+  @include color(--color-warnig-light, 32, 80%, 50%);
+  @include color(--color-warnig, 32, 86%, 46%);
+  @include color(--color-warnig-dark, 30, 85%, 43%);
+  @include color(--color-warnig-darker, 30, 57%, 40%);
+
+  @include color(--color-success-light, 160, 55%, 40%);
+  @include color(--color-success, 160, 58%, 35%);
+  @include color(--color-success-dark, 160, 75%, 29%);
+  @include color(--color-success-darker, 162, 75%, 25%);
+
+  @include color(--color-gray-lighter-extra, 0, 0%, 96%);
+  @include color(--color-gray-lighter, 0, 0%, 92%);
+  @include color(--color-gray-light, 0, 0%, 88%);
+  @include color(--color-gray, 0, 0%, 79%);
+  @include color(--color-gray-dark, 0, 0%, 70%);
+  @include color(--color-gray-darker, 0, 0%, 56%);
+}

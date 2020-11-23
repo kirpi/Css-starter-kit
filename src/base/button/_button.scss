@@ -1,0 +1,16 @@
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: middle;
+  padding-left: var(--btn-padding-x, #{$space-3});
+  padding-right: var(--btn-padding-x, #{$space-3});
+  padding-top: var(--btn-padding-y, #{$space-2});
+  padding-bottom: var(--btn-padding-y, #{$space-2});
+  font-size: var(--btn-font-size, #{$font-size-desktop});
+  font-weight: var(--btn-font-weight, #{$font-weight-semibold});
+  border-radius: var(--btn-radius, #{$border-radius-1});
+}

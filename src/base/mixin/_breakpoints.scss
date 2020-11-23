@@ -1,0 +1,16 @@
+@mixin breakpoint($breakpoint) {
+  @if $breakpoint ==""{
+   @content
+  }
+  @else{
+    $param: map-get($map: $breakpoints, $key:$breakpoint );
+    @if $param != null{
+      @media(min-width:$param){
+        @content
+      }
+    }
+    @else{
+      @warn "The value you entered is incomplete or incorrect #{$breakpoint}. Please check (./variable/_breakpoint.scss). "
+    }
+  }
+}

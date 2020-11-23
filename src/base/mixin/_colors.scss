@@ -1,0 +1,15 @@
+@mixin color($name:null, $hue:null, $saturation:null, $lightness:null,$alpha:1){
+  @if $name == null{
+    @error "Please write the color name | Example: hsl(name,h,s%,l%})."
+  }@else if $hue == null{
+    @error "Please write the hue property | Example: hsl(#{$name},h,s%,l%)."
+  }@else if $saturation == null{
+    @error "Please write the saturation property | Example: hsl(#{$name},#{$hue},s%,l%)."
+  }@else if $lightness == null{
+    @error "Please write the lightness property | Example: hsl(#{$name},#{$hue},#{$saturation},l%)."
+  }@else if $alpha == 1{
+    #{$name}: unquote("hsl(#{$hue},#{$saturation},#{$lightness})");
+  }@else{
+  #{$name}: unquote("hsla(#{$hue},#{$saturation},#{$lightness},#{$alpha})");
+}
+}

@@ -1,0 +1,5 @@
+$grid-colums: 12 !default;
+@function col-width($i){
+  $width: floor(100% * $i * 100 / $grid-colums) / 100;
+  @return $width;
+}

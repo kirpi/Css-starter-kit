@@ -1,0 +1,30 @@
+$font-size-desktop: 14px !default;
+$font-size-mobile: 16px !default;
+$scale-ratio: 1.250 !default;
+$line-height: 1.75 !default;
+$body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !default;
+
+
+//Desktop Sizes
+$h1-desktop: calc(#{$font-size-desktop} * #{$scale-ratio} * #{$scale-ratio} * #{$scale-ratio} * #{$scale-ratio} * #{$scale-ratio}) !default;
+$h2-desktop: calc(#{$font-size-desktop} * #{$scale-ratio} * #{$scale-ratio} * #{$scale-ratio} * #{$scale-ratio}) !default;
+$h3-desktop: calc(#{$font-size-desktop} * #{$scale-ratio} * #{$scale-ratio} * #{$scale-ratio}) !default;
+$h4-desktop: calc(#{$font-size-desktop} * #{$scale-ratio} * #{$scale-ratio}) !default;
+$h5-desktop: calc(#{$font-size-desktop} * #{$scale-ratio}) !default;
+$p-desktop: $font-size-desktop !default;
+$small-desktop: calc(#{$font-size-desktop} / #{$scale-ratio}) !default;
+
+//Mobile Sizes
+$h1-mobile: calc(#{$font-size-mobile} * #{$scale-ratio} * #{$scale-ratio} * #{$scale-ratio} * #{$scale-ratio} * #{$scale-ratio}) !default;
+$h2-mobile: calc(#{$font-size-mobile} * #{$scale-ratio} * #{$scale-ratio} * #{$scale-ratio} * #{$scale-ratio}) !default;
+$h3-mobile: calc(#{$font-size-mobile} * #{$scale-ratio} * #{$scale-ratio} * #{$scale-ratio}) !default;
+$h4-mobile: calc(#{$font-size-mobile} * #{$scale-ratio} * #{$scale-ratio}) !default;
+$h5-mobile: calc(#{$font-size-mobile} * #{$scale-ratio}) !default;
+$p-mobile: $font-size-mobile !default;
+$small-mobile: calc(#{$font-size-mobile} / #{$scale-ratio}) !default;
+
+//Font Weights
+$font-weight-bold: 700 !default;
+$font-weight-semibold: 500 !default;
+$font-weight-normal: 400 !default;
+$font-weight-light: 300 !default;

@@ -1,0 +1,59 @@
+/*
+  To edit button: ./base/button/_button.scss
+  To edit boxshadow: ./base/variable/_misc.scss
+
+  **You can use :root variables to customize the font size, space values.
+  :root{
+  --btn-font-size: value;
+  --btn-font-weight: value;
+  --btn-padding-x: value;
+  --btn-padding-y: value;
+  --btn-radius:value;
+  }
+*/
+
+.btn{
+  border:0;
+  transition: $fade-1;
+  &:hover{
+    box-shadow: $shadow-sm;
+    cursor: pointer;
+  }
+  &:focus{
+    outline: none;
+    box-shadow: $shadow-md;
+  }
+}
+
+.btn--primary{
+  background: var(--color-primary);
+  color: var(--color-white);
+  &:hover{
+    background: var(--color-primary-dark);
+  }
+  &:focus {
+
+  }
+}
+.btn--accent{
+  background: var(--color-gray-lighter-extra);
+  color: var(--color-primary);
+  border:1px solid var(--color-primary);
+  &:hover{
+    background: var(--color-primary);
+    color: var(--color-white);
+  }
+}
+
+.btn--disable{
+  background: var(--color-gray-lighter-extra);
+  color: inherit;
+  opacity: 0.6;
+  &:hover{
+    box-shadow: none;
+    cursor: not-allowed;
+  }
+  &:focus{
+    box-shadow: none;
+  }
+}
