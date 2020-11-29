@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f8793af-97b8-4eb1-b626-441b381fcd53" name="Default Changelist" comment="" />
+    <list default="true" id="6f8793af-97b8-4eb1-b626-441b381fcd53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/mixin/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/mixin/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/utilies/_margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/utilies/_margin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/custom/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/custom/_spacing.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +40,9 @@
         <option value="SCSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="NamedScopeManager">
     <scope name="dev" pattern="file[css]:src//*||file[css]:dist//*" />
@@ -76,12 +104,28 @@
       <workItem from="1605094558014" duration="233000" />
       <workItem from="1605169680137" duration="945000" />
       <workItem from="1605179452323" duration="7000" />
-      <workItem from="1606119039871" duration="24032000" />
+      <workItem from="1606119039871" duration="24157000" />
+      <workItem from="1606381949471" duration="528000" />
+      <workItem from="1606416425385" duration="1551000" />
+      <workItem from="1606426782277" duration="4000" />
+      <workItem from="1606651637433" duration="2970000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1606120645153">
@@ -92,10 +136,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="360" y="267" width="725" height="379" key="#Scopes/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1604748184473" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604424050071">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606382018887">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1604424050071" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1606382018887" />
     <state x="449" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604424748208">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

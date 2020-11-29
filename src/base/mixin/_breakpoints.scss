@@ -1,3 +1,5 @@
+//Responsive Media Query
+
 @mixin breakpoint($breakpoint) {
   @if $breakpoint ==""{
    @content
@@ -12,5 +14,20 @@
     @else{
       @warn "The value you entered is incomplete or incorrect #{$breakpoint}. Please check (./variable/_breakpoint.scss). "
     }
+  }
+}
+
+//Retina Media Query
+
+@mixin retina {
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-moz-min-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+    @content;
   }
 }
